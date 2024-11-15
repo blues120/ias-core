@@ -19,7 +19,7 @@ import (
 	"gitlab.ctyuncdn.cn/ias/ias-core/errors"
 	"gitlab.ctyuncdn.cn/ias/ias-core/middleware"
 	"gitlab.ctyuncdn.cn/ias/ias-core/pkg/convert"
-	"gitlab.ctyuncdn.cn/ias/ias-kit/oss"
+	"github.com/blues120/ias-kit/oss"
 )
 
 type cameraRepo struct {

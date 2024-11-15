@@ -6,7 +6,7 @@ import (
 
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/go-redsync/redsync/v4"
-	"gitlab.ctyuncdn.cn/ias/ias-kit/time_helper"
+	"github.com/blues120/ias-kit/time_helper"
 )
 
 // 告警消息

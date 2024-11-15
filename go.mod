@@ -1,8 +1,6 @@
-module gitlab.ctyuncdn.cn/ias/ias-core
+module github.com/blues120/ias-core
 
 go 1.21
-
-
 
 require (
 	ariga.io/atlas v0.14.1
@@ -10,6 +8,8 @@ require (
 	github.com/alicebob/miniredis/v2 v2.31.1
 	github.com/aws/aws-sdk-go v1.44.275
 	github.com/beevik/etree v1.2.0
+	github.com/blues120/ias-kit v1.0.4
+	github.com/blues120/ias-proto v1.0.3
 	github.com/docker/docker v23.0.6+incompatible
 	github.com/eclipse/paho.mqtt.golang v1.4.3
 	github.com/go-kratos/kratos/v2 v2.7.1

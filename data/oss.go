@@ -6,9 +6,9 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/credentials"
 	"gitlab.ctyuncdn.cn/ias/ias-core/conf"
-	"gitlab.ctyuncdn.cn/ias/ias-kit/oss"
-	"gitlab.ctyuncdn.cn/ias/ias-kit/oss/local"
-	"gitlab.ctyuncdn.cn/ias/ias-kit/oss/s3"
+	"github.com/blues120/ias-kit/oss"
+	"github.com/blues120/ias-kit/oss/local"
+	"github.com/blues120/ias-kit/oss/s3"
 )
 
 func NewOssRepo(c *conf.Data) (oss.Oss, error) {

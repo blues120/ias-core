@@ -6,8 +6,8 @@ import (
 	"github.com/go-kratos/kratos/v2/log"
 	"gitlab.ctyuncdn.cn/ias/ias-core/conf"
 	"gitlab.ctyuncdn.cn/ias/ias-core/pkg/vss"
-	standardProto "gitlab.ctyuncdn.cn/ias/proto/api/standard/v1"
-	warningProto "gitlab.ctyuncdn.cn/ias/proto/api/warning/v1"
+	standardProto "github.com/blues120/ias-proto/api/standard/v1"
+	warningProto "github.com/blues120/ias-proto/api/warning/v1"
 	"strconv"
 )
 

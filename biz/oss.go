@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/go-kratos/kratos/v2/log"
-	"gitlab.ctyuncdn.cn/ias/ias-kit/oss"
+	"github.com/blues120/ias-kit/oss"
 )
 
 type OssUsecase struct {
