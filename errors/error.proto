@@ -1,0 +1,52 @@
+syntax = "proto3";
+
+package ias_core.error;
+
+import "errors/errors.proto";
+
+option go_package = "gitlab.ctyuncdn.cn/ias/ias-core/errors;errors";
+option java_multiple_files = true;
+
+enum Error {
+  // 设置缺省错误码
+  option (errors.default_code) = 500;
+
+  // 该错误比较含糊，只有当未知异常时才能使用，大部分情况应使用更具体的错误码
+  INTERNAL_SERVER_ERROR = 0 [(errors.code) = 500];
+  INVALID_PARAM = 1 [(errors.code) = 400];
+
+  /*
+  摄像机相关
+   */
+  EMPTY_STREAMING_PROTOCOL = 20 [(errors.code) = 400];
+  INVALID_RTSP_ADDR = 21 [(errors.code) = 400];
+  STREAM_INFO_NOTFOUND = 22 [(errors.code) = 404];
+  CAMERA_NOT_FOUND = 23 [(errors.code) = 404];
+  CAMERA_ALREADY_EXIST = 24 [(errors.code) = 400];
+  CAMERA_UPDATE_ERROR = 25 [(errors.code) = 400];
+
+  /*
+  任务相关
+   */
+  TASK_STOP_ERROR = 40 [(errors.code) = 400];
+
+  /*
+  用户相关
+   */
+  USER_NAME_EXIST = 60 [(errors.code) = 400];
+  USER_NOT_FOUND = 61 [(errors.code) = 404];
+  USER_NAME_OR_PASSWORD_ERROR = 62 [(errors.code) = 400];
+  USER_CAPTCHA_VERIFY_ERROR = 63 [(errors.code) = 400];
+  USER_CAPTCHA_EXPIRED = 64 [(errors.code) = 400];
+  USER_REFRESH_TOKEN_NOT_FOUND = 65 [(errors.code) = 400];
+
+  /*
+    订阅告警相关
+  */
+  SUBSCRIBE_NOT_FOUND = 70 [(errors.code) = 400];
+
+  /*
+    组织架构相关
+  */
+  ORGANIZATION_NOT_FOUND = 90 [(errors.code) = 404];
+}

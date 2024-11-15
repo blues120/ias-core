@@ -1,0 +1,82 @@
+data:
+  database:
+    driver: mysql
+    source: root:password@tcp(127.0.0.1:3306)/ias-debug?parseTime=True
+    max_idle_conns: 10
+    max_open_conns: 100
+    conn_max_lifetime: 3600s
+    # print_sql: true # 已废弃，日志级别为 debug 时自动打印 sql 日志
+    auto_migration: true # 表结构自动迁移
+  redis:
+    addr: 127.0.0.1:6379
+    password: password
+    db: 0
+    read_timeout: 1s
+    write_timeout: 1s
+  oss:
+    aws_s3:
+      ak: d0XZ********K0eIpc
+      sk: ANEE18************gMDp118LyZwQ
+      bucket: ecloud
+      endpoint: http://h***#***un.cn
+      region: cn
+      bucket_dir: modelfile
+      face_dir: face
+  mq:
+    url: amqp://rabbit:****@127.0.0.1:30024/
+    queue_name: test
+    routing_key: test
+    exchange_name: yongjia
+    exchange_type: fanout
+  kubernetes:
+    namespace: ias-server
+    kube_config: /root/.kube/config
+    node_selector: gpu
+    frame_task_base_dir: /data/image/
+    frame_ffmpeg_image: ias-runffmpeg:4.1-nvidia
+    frame_sidecar_image: 127.0.0.1:30021/vics/frame-job:v0.0.4
+    gpu_resource_key: nvidia.com/
+    gpu_open_virtual: false
+  mqtt:
+    addr: "tcp://br*****o:1883"
+    username: emqx
+    password: password
+ytx_client:
+  ak: 65038a*********cea40dd
+  sk: f3f220*********2485ca3f
+  url: "https://sms********.cn/sms/api/v1"
+auth:
+  access_expiration: 86400s # access_token过期时间
+  refresh_expiration: 604800s # refresh_token过期时间
+  jwt_key: dee69a********dd7fb73ac # jwt秘钥
+  captcha_expire: 180s # 验证码过期时间
+  sign_method: hs512
+iam:
+  enable: false
+  iam_host: https://i****tcdn.cn:31443
+  redis:
+    addr: localhost:6379
+    password:
+    db: 1
+    read_timeout: 0.2s
+    write_timeout: 0.2s
+  app_id: 46fada573d9***4cc97a
+  app_secret: C6XfYSiOof*****6sRePEp-w
+  ac: app
+  privilege_action: c_view
+scheduler:
+  mode: k8s
+warn_alert:
+  channel: channel
+agent_extend:
+  file_time_out: 3s
+log:
+  mode: console # console/file
+  level: info
+  separate_error_log: true # 开启后，错误日志会额外生成一个文件（file模式下生效）
+  rotation:
+    filename: mqtt-client.log
+    max_size_mb: 10
+    max_backups: 5
+    max_age: 30
+    compress: false # 是否压缩

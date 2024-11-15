@@ -1,0 +1,207 @@
+syntax = "proto3";
+
+package ias_core.conf;
+
+option go_package = "gitlab.ctyuncdn.cn/ias/ias-core/conf;conf";
+
+import "google/protobuf/duration.proto";
+
+message Bootstrap {
+  Data data = 1;
+  Auth auth = 2;
+  Scheduler scheduler = 3;
+  OpenApi open_api = 4;
+  YtxClient ytx_client = 5;
+  WarnAlert warn_alert = 6;
+  Callback callback = 7;
+  VssSign  vss_sign = 8;
+  AgentExtend agent_extend = 9;
+  Log log = 10; // 日志配置
+  Sophgo sophgo = 11; // 算能算法服务配置
+  Service service = 12; //判断是否是数生服务
+  IAM iam = 13; // IAM 配置
+  string scene = 14; // 区分场景：jmv/jme
+}
+
+message Data {
+  message Database {
+    string driver = 1;
+    string source = 2;
+    int32 max_idle_conns = 3;
+    int32 max_open_conns = 4;
+    google.protobuf.Duration conn_max_lifetime = 5;
+    reserved 6;
+    bool auto_migration = 7;
+  }
+
+  message Redis {
+    string addr = 1;
+    string password = 2;
+    int32 db = 3;
+    google.protobuf.Duration read_timeout = 4;
+    google.protobuf.Duration write_timeout = 5;
+  }
+
+  message Oss {
+    message Local {
+      string store_path = 1;
+      string path = 2;
+    }
+
+    message AwsS3 {
+      string ak = 1;
+      string sk = 2;
+      string bucket = 3;
+      string endpoint = 4;
+      string region = 5;
+      string bucket_dir = 6;
+      string face_dir = 7;
+      string endpoint_alias = 8;
+      string train_data_bucket = 9;
+    }
+
+    oneof oss {
+      Local local = 1;
+      AwsS3 aws_s3 = 2;
+    }
+  }
+
+  message Mq {
+    string url = 1;
+    string queue_name = 2;
+    string routing_key = 3;
+    string exchange_name = 4;
+    string exchange_type = 5;
+  }
+
+  message Kubernetes {
+    string namespace = 1;
+    string kube_config = 2;
+    string node_selector = 3;
+    string frame_task_base_dir = 4;
+    string frame_ffmpeg_image = 5;
+    string frame_sidecar_image = 6;
+    string gpu_resource_key = 7;
+    bool gpu_open_virtual = 8; // 开启GPU虚拟化，可以多个pod 使用一张GPU卡
+    repeated HostAlias host_aliases = 9;//ip和域名映射
+    string busybox_image = 10;
+  }
+  message HostAlias {
+    string ip =1;
+    repeated string hostnames =2;
+  }
+
+  message Mqtt {
+    string addr = 1; // mqtt消息服务器地址
+    string username = 2;
+    string password = 3;
+  }
+
+  Database database = 1;
+  Redis redis = 2;
+  Oss oss = 3;
+  Mq mq = 4;
+  Kubernetes kubernetes = 5;
+  Mqtt mqtt = 6;
+  Gb28181 gb28181 =7;
+}
+
+message Auth {
+  google.protobuf.Duration access_expiration = 1;
+  google.protobuf.Duration refresh_expiration = 2;
+  string jwt_key = 3;
+  google.protobuf.Duration captcha_expire = 4;
+  bool disable = 5;
+  string sign_method = 6;
+}
+
+message IAM {
+  bool enable = 1; // 是否启用 IAM 认证
+  Data.Redis redis = 2;
+  string iam_host = 3;
+  string app_id = 4;
+  string app_secret = 5;
+  string ac = 6;
+  string privilege_action = 7;
+}
+
+message Scheduler {
+  enum Mode {
+    k8s = 0;
+    docker = 1;
+    ecx = 2;
+    ecx_vss = 3;
+    sophgo = 4;
+    mix = 5;
+  }
+  Mode mode = 1;
+}
+
+message OpenApi {
+  string host = 1;
+  string app_id = 2;
+  string app_secret = 3;
+  string ac = 4;
+  string wan_url = 5;
+  string workspace_id = 6;
+}
+
+message YtxClient {
+  string url = 3;
+  string ak = 1;
+  string sk = 2;
+}
+
+message WarnAlert {
+  string channel = 1; // redis订阅channel名
+}
+
+message Callback {
+  string addr = 1;
+  map<string, string> urls = 2;
+  string mq_public_addr = 3;
+  bool auth_enable = 4;
+}
+
+message VssSign {
+  string id = 1;
+  string access_secret = 2;
+  string access_key = 3;
+  string version = 4;
+  string host = 5;
+}
+
+message AgentExtend{
+  string file_time_out = 1;
+}
+
+message Sophgo {
+  string addr = 1; // ip:port 算能算法服务地址
+}
+
+message Service {
+  enum ServiceName {
+    JMV = 0;              // 建木
+    VSS_SERVICE = 1;      // 数生
+  }
+  ServiceName name = 1;
+}
+
+message Log {
+  message Rotation {
+    string filename = 2;
+    int32 max_size_mb = 3;
+    int32 max_backups = 4;
+    int32 max_age = 5;
+    bool compress = 6;
+  }
+  string mode = 1;
+  string level = 2;
+  bool separate_error_log = 3;
+  Rotation rotation = 4;
+}
+
+message Gb28181 {
+  string sip_addr = 1;
+  string local_gbid = 2;
+}
