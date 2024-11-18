@@ -5,12 +5,12 @@ package enttest
 import (
 	"context"
 
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent"
+	"github.com/blues120/ias-core/data/ent"
 	// required by schema hooks.
-	_ "gitlab.ctyuncdn.cn/ias/ias-core/data/ent/runtime"
+	_ "github.com/blues120/ias-core/data/ent/runtime"
 
 	"entgo.io/ent/dialect/sql/schema"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/migrate"
+	"github.com/blues120/ias-core/data/ent/migrate"
 )
 
 type (

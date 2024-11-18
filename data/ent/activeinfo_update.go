@@ -11,8 +11,8 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/activeinfo"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/predicate"
+	"github.com/blues120/ias-core/data/ent/activeinfo"
+	"github.com/blues120/ias-core/data/ent/predicate"
 )
 
 // ActiveInfoUpdate is the builder for updating ActiveInfo entities.

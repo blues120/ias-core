@@ -5,8 +5,8 @@ import (
 	"strconv"
 
 	jsoniter "github.com/json-iterator/go"
-	"gitlab.ctyuncdn.cn/ias/ias-core/biz"
-	"gitlab.ctyuncdn.cn/ias/ias-core/conf"
+	"github.com/blues120/ias-core/biz"
+	"github.com/blues120/ias-core/conf"
 )
 
 func TaskToAgentConfig(bc *conf.Bootstrap, ta *biz.Task, agentConf *conf.AgentExtend) *Config {

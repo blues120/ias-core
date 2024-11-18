@@ -8,7 +8,7 @@ import (
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/go-kratos/kratos/v2/middleware"
 	"github.com/go-kratos/kratos/v2/transport/http"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/iam"
+	"github.com/blues120/ias-core/data/iam"
 )
 
 type IAMMiddleware middleware.Middleware

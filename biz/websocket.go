@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"errors"
 	"github.com/gorilla/websocket"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/iam"
+	"github.com/blues120/ias-core/data/iam"
 	"strings"
 )
 

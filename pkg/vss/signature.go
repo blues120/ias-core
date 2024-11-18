@@ -9,7 +9,7 @@ import (
 	"crypto/sha256"
 	"encoding/hex"
 	"fmt"
-	"gitlab.ctyuncdn.cn/ias/ias-core/conf"
+	"github.com/blues120/ias-core/conf"
 	"io"
 	"math/big"
 	"net/http"

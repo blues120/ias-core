@@ -6,7 +6,7 @@ import (
 	"fmt"
 
 	"github.com/redis/go-redis/v9"
-	"gitlab.ctyuncdn.cn/ias/ias-core/biz"
+	"github.com/blues120/ias-core/biz"
 )
 
 const (

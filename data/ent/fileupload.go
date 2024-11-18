@@ -9,7 +9,7 @@ import (
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/fileupload"
+	"github.com/blues120/ias-core/data/ent/fileupload"
 )
 
 // FileUpload is the model entity for the FileUpload schema.

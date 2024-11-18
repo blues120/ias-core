@@ -8,15 +8,15 @@ import (
 
 	"entgo.io/ent/dialect/sql"
 	"github.com/go-kratos/kratos/v2/log"
-	"gitlab.ctyuncdn.cn/ias/ias-core/biz"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/algorithm"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/camera"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/mixin"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/predicate"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/task"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/taskcamera"
-	"gitlab.ctyuncdn.cn/ias/ias-core/pkg/convert"
+	"github.com/blues120/ias-core/biz"
+	"github.com/blues120/ias-core/data/ent"
+	"github.com/blues120/ias-core/data/ent/algorithm"
+	"github.com/blues120/ias-core/data/ent/camera"
+	"github.com/blues120/ias-core/data/ent/mixin"
+	"github.com/blues120/ias-core/data/ent/predicate"
+	"github.com/blues120/ias-core/data/ent/task"
+	"github.com/blues120/ias-core/data/ent/taskcamera"
+	"github.com/blues120/ias-core/pkg/convert"
 )
 
 const (

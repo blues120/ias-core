@@ -8,7 +8,7 @@ import (
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
-	"gitlab.ctyuncdn.cn/ias/ias-core/biz"
+	"github.com/blues120/ias-core/biz"
 )
 
 const (
@@ -72,7 +72,7 @@ func ValidColumn(column string) bool {
 // package on the initialization of the application. Therefore,
 // it should be imported in the main as follows:
 //
-//	import _ "gitlab.ctyuncdn.cn/ias/ias-core/data/ent/runtime"
+//	import _ "github.com/blues120/ias-core/data/ent/runtime"
 var (
 	Hooks        [5]ent.Hook
 	Interceptors [3]ent.Interceptor

@@ -2,7 +2,7 @@ package biz
 
 import (
 	"context"
-	"gitlab.ctyuncdn.cn/ias/ias-core/pkg/pagination"
+	"github.com/blues120/ias-core/pkg/pagination"
 	"time"
 
 	"github.com/go-kratos/kratos/v2/log"

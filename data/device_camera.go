@@ -3,9 +3,9 @@ package data
 import (
 	"context"
 
-	"gitlab.ctyuncdn.cn/ias/ias-core/biz"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/devicecamera"
+	"github.com/blues120/ias-core/biz"
+	"github.com/blues120/ias-core/data/ent"
+	"github.com/blues120/ias-core/data/ent/devicecamera"
 )
 
 // 汇总摄像机ID列表

@@ -3,9 +3,9 @@ package data
 import (
 	"context"
 	"github.com/go-kratos/kratos/v2/log"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/algorithm"
+	"github.com/blues120/ias-core/data/ent/algorithm"
 
-	"gitlab.ctyuncdn.cn/ias/ias-core/biz"
+	"github.com/blues120/ias-core/biz"
 )
 
 var parentWarnIDCounter uint32

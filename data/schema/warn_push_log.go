@@ -6,8 +6,8 @@ import (
 	"entgo.io/ent/schema"
 	"entgo.io/ent/schema/edge"
 	"entgo.io/ent/schema/field"
-	"gitlab.ctyuncdn.cn/ias/ias-core/biz"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/mixin"
+	"github.com/blues120/ias-core/biz"
+	"github.com/blues120/ias-core/data/ent/mixin"
 )
 
 type WarnPushLog struct {

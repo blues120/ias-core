@@ -10,8 +10,8 @@ import (
 	"strconv"
 
 	"github.com/go-kratos/kratos/v2/log"
-	"gitlab.ctyuncdn.cn/ias/ias-core/conf"
-	"gitlab.ctyuncdn.cn/ias/ias-core/pkg/access"
+	"github.com/blues120/ias-core/conf"
+	"github.com/blues120/ias-core/pkg/access"
 )
 
 type UpPlatform struct {

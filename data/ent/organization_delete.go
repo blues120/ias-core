@@ -8,8 +8,8 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/organization"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/predicate"
+	"github.com/blues120/ias-core/data/ent/organization"
+	"github.com/blues120/ias-core/data/ent/predicate"
 )
 
 // OrganizationDelete is the builder for deleting a Organization entity.

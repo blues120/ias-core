@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 	"github.com/go-kratos/kratos/v2/log"
-	"gitlab.ctyuncdn.cn/ias/ias-core/biz"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/area"
+	"github.com/blues120/ias-core/biz"
+	"github.com/blues120/ias-core/data/ent"
+	"github.com/blues120/ias-core/data/ent/area"
 	"strconv"
 )
 

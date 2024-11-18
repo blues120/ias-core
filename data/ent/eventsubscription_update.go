@@ -11,9 +11,9 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"gitlab.ctyuncdn.cn/ias/ias-core/biz"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/eventsubscription"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/predicate"
+	"github.com/blues120/ias-core/biz"
+	"github.com/blues120/ias-core/data/ent/eventsubscription"
+	"github.com/blues120/ias-core/data/ent/predicate"
 )
 
 // EventSubscriptionUpdate is the builder for updating EventSubscription entities.

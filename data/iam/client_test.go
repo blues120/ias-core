@@ -12,8 +12,8 @@ import (
 
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/stretchr/testify/assert"
-	"gitlab.ctyuncdn.cn/ias/ias-core/conf"
-	"gitlab.ctyuncdn.cn/ias/ias-core/pkg/openapi"
+	"github.com/blues120/ias-core/conf"
+	"github.com/blues120/ias-core/pkg/openapi"
 )
 
 func initIamClient() *Client {

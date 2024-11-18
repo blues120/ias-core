@@ -2,4 +2,4 @@
 
 package ent
 
-// The schema-stitching logic is generated in gitlab.ctyuncdn.cn/ias/ias-core/data/ent/runtime/runtime.go
+// The schema-stitching logic is generated in github.com/blues120/ias-core/data/ent/runtime/runtime.go

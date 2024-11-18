@@ -8,8 +8,8 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/predicate"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/warnpushlog"
+	"github.com/blues120/ias-core/data/ent/predicate"
+	"github.com/blues120/ias-core/data/ent/warnpushlog"
 )
 
 // WarnPushLogDelete is the builder for deleting a WarnPushLog entity.

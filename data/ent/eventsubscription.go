@@ -9,8 +9,8 @@ import (
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
-	"gitlab.ctyuncdn.cn/ias/ias-core/biz"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/eventsubscription"
+	"github.com/blues120/ias-core/biz"
+	"github.com/blues120/ias-core/data/ent/eventsubscription"
 )
 
 // EventSubscription is the model entity for the EventSubscription schema.

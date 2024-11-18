@@ -6,7 +6,7 @@ import (
 	"context"
 	"fmt"
 
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent"
+	"github.com/blues120/ias-core/data/ent"
 )
 
 // The ActiveInfoFunc type is an adapter to allow the use of ordinary

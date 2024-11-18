@@ -6,7 +6,7 @@ import (
 	"entgo.io/ent/schema"
 	"entgo.io/ent/schema/field"
 	"entgo.io/ent/schema/index"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/mixin"
+	"github.com/blues120/ias-core/data/ent/mixin"
 )
 
 // WarningType holds the schema definition for the Task entity.

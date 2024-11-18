@@ -9,9 +9,9 @@ import (
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/camera"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/devicecamera"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/task"
+	"github.com/blues120/ias-core/data/ent/camera"
+	"github.com/blues120/ias-core/data/ent/devicecamera"
+	"github.com/blues120/ias-core/data/ent/task"
 )
 
 // DeviceCamera is the model entity for the DeviceCamera schema.

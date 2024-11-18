@@ -12,9 +12,9 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/algorithm"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/predicate"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/task"
+	"github.com/blues120/ias-core/data/ent/algorithm"
+	"github.com/blues120/ias-core/data/ent/predicate"
+	"github.com/blues120/ias-core/data/ent/task"
 )
 
 // AlgorithmQuery is the builder for querying Algorithm entities.

@@ -10,9 +10,9 @@ import (
 	"strings"
 
 	jsoniter "github.com/json-iterator/go"
-	"gitlab.ctyuncdn.cn/ias/ias-core/biz"
-	"gitlab.ctyuncdn.cn/ias/ias-core/conf"
-	coreMqtt "gitlab.ctyuncdn.cn/ias/ias-core/mqtt"
+	"github.com/blues120/ias-core/biz"
+	"github.com/blues120/ias-core/conf"
+	coreMqtt "github.com/blues120/ias-core/mqtt"
 )
 
 func TaskToAlgoConfig(bc *conf.Bootstrap, ta *biz.Task) coreMqtt.TaskStart {

@@ -8,7 +8,7 @@ import (
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/upplatform"
+	"github.com/blues120/ias-core/data/ent/upplatform"
 )
 
 // UpPlatform is the model entity for the UpPlatform schema.

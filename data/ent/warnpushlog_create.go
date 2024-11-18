@@ -11,9 +11,9 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"gitlab.ctyuncdn.cn/ias/ias-core/biz"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/warnpush"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/warnpushlog"
+	"github.com/blues120/ias-core/biz"
+	"github.com/blues120/ias-core/data/ent/warnpush"
+	"github.com/blues120/ias-core/data/ent/warnpushlog"
 )
 
 // WarnPushLogCreate is the builder for creating a WarnPushLog entity.

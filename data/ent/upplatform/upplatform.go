@@ -80,7 +80,7 @@ func ValidColumn(column string) bool {
 // package on the initialization of the application. Therefore,
 // it should be imported in the main as follows:
 //
-//	import _ "gitlab.ctyuncdn.cn/ias/ias-core/data/ent/runtime"
+//	import _ "github.com/blues120/ias-core/data/ent/runtime"
 var (
 	Hooks        [4]ent.Hook
 	Interceptors [2]ent.Interceptor

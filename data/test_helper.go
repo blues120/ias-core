@@ -6,9 +6,9 @@ import (
 	"github.com/alicebob/miniredis/v2"
 	"github.com/redis/go-redis/v9"
 	"github.com/stretchr/testify/require"
-	"gitlab.ctyuncdn.cn/ias/ias-core/biz/streaming"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/enttest"
+	"github.com/blues120/ias-core/biz/streaming"
+	"github.com/blues120/ias-core/data/ent"
+	"github.com/blues120/ias-core/data/ent/enttest"
 	"testing"
 )
 

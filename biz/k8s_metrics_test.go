@@ -10,8 +10,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"gitlab.ctyuncdn.cn/ias/ias-core/conf"
-	"gitlab.ctyuncdn.cn/ias/ias-core/pkg/log/zap"
+	"github.com/blues120/ias-core/conf"
+	"github.com/blues120/ias-core/pkg/log/zap"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

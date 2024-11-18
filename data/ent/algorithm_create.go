@@ -11,8 +11,8 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/algorithm"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/task"
+	"github.com/blues120/ias-core/data/ent/algorithm"
+	"github.com/blues120/ias-core/data/ent/task"
 )
 
 // AlgorithmCreate is the builder for creating a Algorithm entity.

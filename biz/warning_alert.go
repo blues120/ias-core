@@ -12,8 +12,8 @@ import (
 	"github.com/go-kratos/kratos/v2/transport/http"
 	"github.com/gorilla/websocket"
 	"github.com/redis/go-redis/v9"
-	"gitlab.ctyuncdn.cn/ias/ias-core/conf"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/iam"
+	"github.com/blues120/ias-core/conf"
+	"github.com/blues120/ias-core/data/iam"
 )
 
 const warningAlertStreamName string = "ias:WarningAlert" //缓存队列名

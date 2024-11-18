@@ -3,11 +3,11 @@ package scheduler
 import (
 	"fmt"
 
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/scheduler/ecx"
+	"github.com/blues120/ias-core/data/scheduler/ecx"
 
 	"github.com/go-kratos/kratos/v2/log"
-	"gitlab.ctyuncdn.cn/ias/ias-core/biz"
-	"gitlab.ctyuncdn.cn/ias/ias-core/conf"
+	"github.com/blues120/ias-core/biz"
+	"github.com/blues120/ias-core/conf"
 )
 
 func NewSchedulerVSSRepo(bc *conf.Bootstrap, signUc *biz.SignatureUsecase, logger log.Logger) (biz.SchedulerVSSRepo, error) {

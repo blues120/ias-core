@@ -9,11 +9,11 @@ import (
 	"entgo.io/ent/schema"
 	"entgo.io/ent/schema/edge"
 	"entgo.io/ent/schema/field"
-	"gitlab.ctyuncdn.cn/ias/ias-core/biz"
-	coreEnt "gitlab.ctyuncdn.cn/ias/ias-core/data/ent"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/mixin"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/task"
-	"gitlab.ctyuncdn.cn/ias/ias-core/middleware"
+	"github.com/blues120/ias-core/biz"
+	coreEnt "github.com/blues120/ias-core/data/ent"
+	"github.com/blues120/ias-core/data/ent/mixin"
+	"github.com/blues120/ias-core/data/ent/task"
+	"github.com/blues120/ias-core/middleware"
 )
 
 // Task holds the schema definition for the Task entity.

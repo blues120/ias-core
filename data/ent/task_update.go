@@ -11,13 +11,13 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"gitlab.ctyuncdn.cn/ias/ias-core/biz"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/algorithm"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/camera"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/device"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/predicate"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/task"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/taskcamera"
+	"github.com/blues120/ias-core/biz"
+	"github.com/blues120/ias-core/data/ent/algorithm"
+	"github.com/blues120/ias-core/data/ent/camera"
+	"github.com/blues120/ias-core/data/ent/device"
+	"github.com/blues120/ias-core/data/ent/predicate"
+	"github.com/blues120/ias-core/data/ent/task"
+	"github.com/blues120/ias-core/data/ent/taskcamera"
 )
 
 // TaskUpdate is the builder for updating Task entities.

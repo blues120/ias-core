@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package ias_core.conf;
 
-option go_package = "gitlab.ctyuncdn.cn/ias/ias-core/conf;conf";
+option go_package = "github.com/blues120/ias-core/conf;conf";
 
 import "google/protobuf/duration.proto";
 

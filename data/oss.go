@@ -5,7 +5,7 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/credentials"
-	"gitlab.ctyuncdn.cn/ias/ias-core/conf"
+	"github.com/blues120/ias-core/conf"
 	"github.com/blues120/ias-kit/oss"
 	"github.com/blues120/ias-kit/oss/local"
 	"github.com/blues120/ias-kit/oss/s3"

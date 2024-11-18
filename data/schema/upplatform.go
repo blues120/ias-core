@@ -3,7 +3,7 @@ package schema
 import (
 	"entgo.io/ent"
 	"entgo.io/ent/schema/field"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/mixin"
+	"github.com/blues120/ias-core/data/ent/mixin"
 )
 
 // UpPlatform holds the schema definition for the UpPlatform entity.

@@ -14,8 +14,8 @@ import (
 	context "context"
 	reflect "reflect"
 
-	biz "gitlab.ctyuncdn.cn/ias/ias-core/biz"
-	streaming "gitlab.ctyuncdn.cn/ias/ias-core/biz/streaming"
+	biz "github.com/blues120/ias-core/biz"
+	streaming "github.com/blues120/ias-core/biz/streaming"
 	gomock "go.uber.org/mock/gomock"
 )
 

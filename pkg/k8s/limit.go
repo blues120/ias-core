@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"math"
 
-	"gitlab.ctyuncdn.cn/ias/ias-core/pkg/convert"
+	"github.com/blues120/ias-core/pkg/convert"
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/resource"
 )

@@ -3,7 +3,7 @@ package data
 import (
 	mqtt "github.com/eclipse/paho.mqtt.golang"
 	"github.com/go-kratos/kratos/v2/log"
-	"gitlab.ctyuncdn.cn/ias/ias-core/biz"
+	"github.com/blues120/ias-core/biz"
 )
 
 type mqttRepo struct {

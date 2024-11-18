@@ -15,11 +15,11 @@ import (
 	"github.com/docker/docker/pkg/stdcopy"
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/gorilla/websocket"
-	"gitlab.ctyuncdn.cn/ias/ias-core/biz"
-	"gitlab.ctyuncdn.cn/ias/ias-core/conf"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/scheduler/agent"
-	"gitlab.ctyuncdn.cn/ias/ias-core/errors"
-	"gitlab.ctyuncdn.cn/ias/ias-core/pkg/file"
+	"github.com/blues120/ias-core/biz"
+	"github.com/blues120/ias-core/conf"
+	"github.com/blues120/ias-core/data/scheduler/agent"
+	"github.com/blues120/ias-core/errors"
+	"github.com/blues120/ias-core/pkg/file"
 	"gopkg.in/yaml.v3"
 )
 

@@ -3,7 +3,7 @@ package biz
 import (
 	"context"
 
-	"gitlab.ctyuncdn.cn/ias/ias-core/pkg/pagination"
+	"github.com/blues120/ias-core/pkg/pagination"
 )
 
 type TaskLimits struct {

@@ -4,12 +4,12 @@ import (
 	"context"
 
 	"github.com/go-kratos/kratos/v2/log"
-	"gitlab.ctyuncdn.cn/ias/ias-core/biz"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/task"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/warnpush"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/warnpushlog"
-	"gitlab.ctyuncdn.cn/ias/ias-core/pkg/convert"
+	"github.com/blues120/ias-core/biz"
+	"github.com/blues120/ias-core/data/ent"
+	"github.com/blues120/ias-core/data/ent/task"
+	"github.com/blues120/ias-core/data/ent/warnpush"
+	"github.com/blues120/ias-core/data/ent/warnpushlog"
+	"github.com/blues120/ias-core/pkg/convert"
 )
 
 type warnPushRepo struct {

@@ -11,7 +11,7 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/devicetoken"
+	"github.com/blues120/ias-core/data/ent/devicetoken"
 )
 
 // DeviceTokenCreate is the builder for creating a DeviceToken entity.

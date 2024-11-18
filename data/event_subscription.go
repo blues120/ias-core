@@ -2,14 +2,14 @@ package data
 
 import (
 	"context"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/eventsubscription"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/task"
-	"gitlab.ctyuncdn.cn/ias/ias-core/errors"
-	"gitlab.ctyuncdn.cn/ias/ias-core/pkg/convert"
+	"github.com/blues120/ias-core/data/ent/eventsubscription"
+	"github.com/blues120/ias-core/data/ent/task"
+	"github.com/blues120/ias-core/errors"
+	"github.com/blues120/ias-core/pkg/convert"
 
 	"github.com/go-kratos/kratos/v2/log"
-	"gitlab.ctyuncdn.cn/ias/ias-core/biz"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent"
+	"github.com/blues120/ias-core/biz"
+	"github.com/blues120/ias-core/data/ent"
 )
 
 type eventSubsRepo struct {

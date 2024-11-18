@@ -5,12 +5,12 @@ import (
 
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/redis/go-redis/v9"
-	"gitlab.ctyuncdn.cn/ias/ias-core/biz"
-	"gitlab.ctyuncdn.cn/ias/ias-core/conf"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/scheduler/docker"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/scheduler/ecx"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/scheduler/kubernetes"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/scheduler/sophgo"
+	"github.com/blues120/ias-core/biz"
+	"github.com/blues120/ias-core/conf"
+	"github.com/blues120/ias-core/data/scheduler/docker"
+	"github.com/blues120/ias-core/data/scheduler/ecx"
+	"github.com/blues120/ias-core/data/scheduler/kubernetes"
+	"github.com/blues120/ias-core/data/scheduler/sophgo"
 )
 
 func NewSchedulerRepoSelector(bc *conf.Bootstrap, rdb *redis.Client, logger log.Logger) (biz.SchedulerRepoSelector, error) {

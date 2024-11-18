@@ -9,7 +9,7 @@ import (
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/user"
+	"github.com/blues120/ias-core/data/ent/user"
 )
 
 // User is the model entity for the User schema.

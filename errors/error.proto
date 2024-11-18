@@ -4,7 +4,7 @@ package ias_core.error;
 
 import "errors/errors.proto";
 
-option go_package = "gitlab.ctyuncdn.cn/ias/ias-core/errors;errors";
+option go_package = "github.com/blues120/ias-core/errors;errors";
 option java_multiple_files = true;
 
 enum Error {

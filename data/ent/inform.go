@@ -9,7 +9,7 @@ import (
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/inform"
+	"github.com/blues120/ias-core/data/ent/inform"
 )
 
 // Inform is the model entity for the Inform schema.

@@ -5,7 +5,7 @@ import (
 	"entgo.io/ent/dialect/entsql"
 	"entgo.io/ent/schema"
 	"entgo.io/ent/schema/field"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/mixin"
+	"github.com/blues120/ias-core/data/ent/mixin"
 )
 
 type ActiveInfo struct {

@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"testing"
 
-	"gitlab.ctyuncdn.cn/ias/ias-core/middleware/signature"
+	"github.com/blues120/ias-core/middleware/signature"
 )
 
 func TestOption(t *testing.T) {

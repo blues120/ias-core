@@ -9,7 +9,7 @@ import (
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/warnsmserr"
+	"github.com/blues120/ias-core/data/ent/warnsmserr"
 )
 
 // WarnSmsErr is the model entity for the WarnSmsErr schema.

@@ -10,12 +10,12 @@ import (
 	"github.com/golang-jwt/jwt/v4"
 	"github.com/mojocn/base64Captcha"
 	"github.com/redis/go-redis/v9"
-	"gitlab.ctyuncdn.cn/ias/ias-core/biz"
-	"gitlab.ctyuncdn.cn/ias/ias-core/conf"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/user"
-	"gitlab.ctyuncdn.cn/ias/ias-core/errors"
-	"gitlab.ctyuncdn.cn/ias/ias-core/pkg/codec"
+	"github.com/blues120/ias-core/biz"
+	"github.com/blues120/ias-core/conf"
+	"github.com/blues120/ias-core/data/ent"
+	"github.com/blues120/ias-core/data/ent/user"
+	"github.com/blues120/ias-core/errors"
+	"github.com/blues120/ias-core/pkg/codec"
 )
 
 type userRepo struct {

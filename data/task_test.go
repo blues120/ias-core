@@ -7,7 +7,7 @@ import (
 	"context"
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/stretchr/testify/require"
-	"gitlab.ctyuncdn.cn/ias/ias-core/biz"
+	"github.com/blues120/ias-core/biz"
 	"testing"
 	"time"
 )

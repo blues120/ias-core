@@ -4,7 +4,7 @@ package upplatform
 
 import (
 	"entgo.io/ent/dialect/sql"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/predicate"
+	"github.com/blues120/ias-core/data/ent/predicate"
 )
 
 // ID filters vertices based on their ID field.

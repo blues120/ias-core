@@ -24,11 +24,11 @@ import (
 	"github.com/google/wire"
 	"github.com/lithammer/shortuuid"
 	_ "github.com/xiaoqidun/entps"
-	"gitlab.ctyuncdn.cn/ias/ias-core/biz"
-	"gitlab.ctyuncdn.cn/ias/ias-core/conf"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/iam"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/scheduler"
+	"github.com/blues120/ias-core/biz"
+	"github.com/blues120/ias-core/conf"
+	"github.com/blues120/ias-core/data/ent"
+	"github.com/blues120/ias-core/data/iam"
+	"github.com/blues120/ias-core/data/scheduler"
 )
 
 // ProviderSet is data providers.

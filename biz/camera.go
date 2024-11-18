@@ -11,14 +11,14 @@ import (
 
 	"github.com/beevik/etree"
 	wsdiscovery "github.com/use-go/onvif/ws-discovery"
-	"gitlab.ctyuncdn.cn/ias/ias-core/biz/streaming"
-	"gitlab.ctyuncdn.cn/ias/ias-core/conf"
+	"github.com/blues120/ias-core/biz/streaming"
+	"github.com/blues120/ias-core/conf"
 
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/panjf2000/ants"
-	"gitlab.ctyuncdn.cn/ias/ias-core/errors"
-	"gitlab.ctyuncdn.cn/ias/ias-core/pkg/access"
-	"gitlab.ctyuncdn.cn/ias/ias-core/pkg/pagination"
+	"github.com/blues120/ias-core/errors"
+	"github.com/blues120/ias-core/pkg/access"
+	"github.com/blues120/ias-core/pkg/pagination"
 )
 
 // CameraStatus 摄像机状态

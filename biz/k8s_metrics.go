@@ -12,8 +12,8 @@ import (
 	"k8s.io/client-go/tools/clientcmd"
 	mc "k8s.io/metrics/pkg/client/clientset/versioned"
 
-	"gitlab.ctyuncdn.cn/ias/ias-core/conf"
-	"gitlab.ctyuncdn.cn/ias/ias-core/pkg/k8s"
+	"github.com/blues120/ias-core/conf"
+	"github.com/blues120/ias-core/pkg/k8s"
 )
 
 type K8sMetricsUsecase struct {

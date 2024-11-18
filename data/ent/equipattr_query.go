@@ -11,8 +11,8 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/equipattr"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/predicate"
+	"github.com/blues120/ias-core/data/ent/equipattr"
+	"github.com/blues120/ias-core/data/ent/predicate"
 )
 
 // EquipAttrQuery is the builder for querying EquipAttr entities.

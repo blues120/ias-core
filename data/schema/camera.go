@@ -8,13 +8,13 @@ import (
 	"entgo.io/ent/schema"
 	"entgo.io/ent/schema/edge"
 	"entgo.io/ent/schema/field"
-	"gitlab.ctyuncdn.cn/ias/ias-core/biz"
-	"gitlab.ctyuncdn.cn/ias/ias-core/biz/streaming"
-	coreEnt "gitlab.ctyuncdn.cn/ias/ias-core/data/ent"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/camera"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/devicecamera"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/mixin"
-	"gitlab.ctyuncdn.cn/ias/ias-core/middleware"
+	"github.com/blues120/ias-core/biz"
+	"github.com/blues120/ias-core/biz/streaming"
+	coreEnt "github.com/blues120/ias-core/data/ent"
+	"github.com/blues120/ias-core/data/ent/camera"
+	"github.com/blues120/ias-core/data/ent/devicecamera"
+	"github.com/blues120/ias-core/data/ent/mixin"
+	"github.com/blues120/ias-core/middleware"
 )
 
 // Camera holds the schema definition for the Camera entity.

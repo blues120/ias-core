@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"gitlab.ctyuncdn.cn/ias/ias-core/pkg/pagination"
+	"github.com/blues120/ias-core/pkg/pagination"
 )
 
 type Inform struct {

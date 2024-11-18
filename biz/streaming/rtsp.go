@@ -12,7 +12,7 @@ import (
 	"time"
 
 	jsoniter "github.com/json-iterator/go"
-	customerr "gitlab.ctyuncdn.cn/ias/ias-core/errors"
+	customerr "github.com/blues120/ias-core/errors"
 )
 
 var (

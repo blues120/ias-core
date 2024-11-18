@@ -5,7 +5,7 @@ import (
 	"errors"
 	"time"
 
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/iam"
+	"github.com/blues120/ias-core/data/iam"
 )
 
 var (

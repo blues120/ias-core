@@ -5,7 +5,7 @@ import (
 	"os"
 	"strings"
 
-	"gitlab.ctyuncdn.cn/ias/ias-core/conf"
+	"github.com/blues120/ias-core/conf"
 
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/natefinch/lumberjack"

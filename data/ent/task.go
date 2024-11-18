@@ -9,10 +9,10 @@ import (
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
-	"gitlab.ctyuncdn.cn/ias/ias-core/biz"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/algorithm"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/device"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/task"
+	"github.com/blues120/ias-core/biz"
+	"github.com/blues120/ias-core/data/ent/algorithm"
+	"github.com/blues120/ias-core/data/ent/device"
+	"github.com/blues120/ias-core/data/ent/task"
 )
 
 // Task is the model entity for the Task schema.

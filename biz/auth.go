@@ -6,9 +6,9 @@ import (
 
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/golang-jwt/jwt/v4"
-	"gitlab.ctyuncdn.cn/ias/ias-core/conf"
-	"gitlab.ctyuncdn.cn/ias/ias-core/errors"
-	"gitlab.ctyuncdn.cn/ias/ias-core/pkg/crypto"
+	"github.com/blues120/ias-core/conf"
+	"github.com/blues120/ias-core/errors"
+	"github.com/blues120/ias-core/pkg/crypto"
 )
 
 type UserRepo interface {

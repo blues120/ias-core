@@ -3,8 +3,8 @@ package mqtt
 import (
 	"fmt"
 
-	"gitlab.ctyuncdn.cn/ias/ias-core/biz"
-	"gitlab.ctyuncdn.cn/ias/ias-core/biz/streaming"
+	"github.com/blues120/ias-core/biz"
+	"github.com/blues120/ias-core/biz/streaming"
 )
 
 const (

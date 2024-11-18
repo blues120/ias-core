@@ -8,9 +8,9 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/schema/field"
 	"entgo.io/ent/schema/mixin"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/hook"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/intercept"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/iam"
+	"github.com/blues120/ias-core/data/ent/hook"
+	"github.com/blues120/ias-core/data/ent/intercept"
+	"github.com/blues120/ias-core/data/iam"
 )
 
 // OrganizationMixin for embedding the tenant info in different schemas.

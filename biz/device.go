@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/go-kratos/kratos/v2/log"
-	"gitlab.ctyuncdn.cn/ias/ias-core/pkg/pagination"
+	"github.com/blues120/ias-core/pkg/pagination"
 )
 
 // EdgeDeviceType 设备类型  DeviceType被占用

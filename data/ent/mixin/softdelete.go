@@ -8,9 +8,9 @@ import (
 	"entgo.io/ent/schema/field"
 	"entgo.io/ent/schema/mixin"
 	"fmt"
-	gen "gitlab.ctyuncdn.cn/ias/ias-core/data/ent"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/hook"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/intercept"
+	gen "github.com/blues120/ias-core/data/ent"
+	"github.com/blues120/ias-core/data/ent/hook"
+	"github.com/blues120/ias-core/data/ent/intercept"
 	"time"
 )
 

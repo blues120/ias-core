@@ -6,12 +6,12 @@ import (
 	"time"
 
 	"github.com/go-kratos/kratos/v2/log"
-	"gitlab.ctyuncdn.cn/ias/ias-core/biz"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/device"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/devicetoken"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent/mixin"
-	"gitlab.ctyuncdn.cn/ias/ias-core/pkg/convert"
+	"github.com/blues120/ias-core/biz"
+	"github.com/blues120/ias-core/data/ent"
+	"github.com/blues120/ias-core/data/ent/device"
+	"github.com/blues120/ias-core/data/ent/devicetoken"
+	"github.com/blues120/ias-core/data/ent/mixin"
+	"github.com/blues120/ias-core/pkg/convert"
 )
 
 type deviceRepo struct {

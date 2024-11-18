@@ -17,9 +17,9 @@ import (
 	"github.com/redis/go-redis/v9"
 	"github.com/valyala/fasthttp"
 
-	"gitlab.ctyuncdn.cn/ias/ias-core/biz"
-	"gitlab.ctyuncdn.cn/ias/ias-core/conf"
-	"gitlab.ctyuncdn.cn/ias/ias-core/data/ent"
+	"github.com/blues120/ias-core/biz"
+	"github.com/blues120/ias-core/conf"
+	"github.com/blues120/ias-core/data/ent"
 )
 
 const (
